@@ -1,7 +1,6 @@
 # Atomate2 Tutorial
 
-A hands-on tutorial for running DFT and ML-potential workflows on the kuma cluster using [atomate2](https://github.com/materialsproject/atomate2), [jobflow](https://github.com/materialsproject/jobflow), and [FireWorks](https://materialsproject.github.io/fireworks/). We will learn about jobflow, calculate an electronic bandstructure and DOS using vasp and determine the thermal expansion and grueneisen parameter of silicon as a function of temperature. 
-
+A hands-on tutorial for running DFT and ML-potential workflows on the kuma cluster using [atomate2](https://github.com/materialsproject/atomate2), [jobflow](https://github.com/materialsproject/jobflow), and [FireWorks](https://materialsproject.github.io/fireworks/). We will learn about jobflow, how to calculate an electronic bandstructure and DOS using vasp and determine the thermal expansion behaviour of silicon as a function of temperature.
 ---
 
 
