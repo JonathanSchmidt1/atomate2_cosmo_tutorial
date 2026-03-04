@@ -13,7 +13,7 @@ We will install packages both on our local machine to be able to submit jobs to 
 Connect to the kuma cluster, clone the repository and set up a virtual environment:
 
 ```bash
-git clone git@github.com:JonathanSchmidt1/atomate2_cosmo_tutorial
+git clone https://github.com/JonathanSchmidt1/atomate2_cosmo_tutorial.git
 cd atomate2_cosmo_tutorial
 module load nvhpc/24.7-mpi vasp/6.4.1-openmp-cuda
 uv venv .atomate2
@@ -26,11 +26,11 @@ uv pip sync requirements.txt
 On your computer or workstation (wherever you intend to run the jupyernotebooks from the tutorial from) run:
 
 ```bash
-git clone git@github.com:JonathanSchmidt1/atomate2_cosmo_tutorial
+git clone https://github.com/JonathanSchmidt1/atomate2_cosmo_tutorial.git
 cd atomate2_cosmo_tutorial
 uv venv .atomate2
 source .atomate2/bin/activate
-uv pip sync requirements_2.txt
+uv pip install -r requirements_2.txt
 ```
 
 and 
