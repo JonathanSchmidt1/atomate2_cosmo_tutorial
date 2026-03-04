@@ -15,11 +15,11 @@ Connect to the kuma cluster, clone the repository and set up a virtual environme
 ```bash
 git clone https://github.com/JonathanSchmidt1/atomate2_cosmo_tutorial.git
 cd atomate2_cosmo_tutorial
-module load nvhpc/24.7-mpi vasp/6.4.1-openmp-cuda
 uv venv .atomate2
 source .atomate2/bin/activate
-uv pip sync requirements.txt
+uv pip install -r requirements.txt
 ```
+change the name in my_fworker.yaml to e.g. your username.
 
 ---
 ### Local
