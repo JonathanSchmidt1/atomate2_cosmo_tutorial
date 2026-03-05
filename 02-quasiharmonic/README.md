@@ -1,6 +1,6 @@
 # 02 — Quasiharmonic Approximation (QHA)
 
-Compute thermal properties of silicon (thermal expansion, Gruneisen parameter, heat capacity) using the quasiharmonic approximation with a machine-learning force field (PET-MAD).
+Compute thermal properties of silicon (thermal expansion, Gruneisen parameter, heat capacity) using the quasiharmonic approximation with multiple universal MLIPs.
 
 **Files:**
 - `quasiharmonic.ipynb` — build, submit, and analyse the QHA workflow
