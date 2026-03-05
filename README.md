@@ -11,6 +11,8 @@ We will install packages both on our local machine to be able to submit jobs to 
 ### Kuma
 Connect to the kuma cluster, clone the repository and set up a virtual environment:
 
+#### Normal pip install instead of uv should also work, will just take longer 
+
 ```bash
 git clone https://github.com/JonathanSchmidt1/atomate2_cosmo_tutorial.git
 cd atomate2_cosmo_tutorial
@@ -23,6 +25,10 @@ change the name in my_fworker.yaml to e.g. your username.
 ---
 ### Local
 On your computer or workstation (wherever you intend to run the jupyernotebooks) run:
+
+On some machines it might necessary to run
+`sudo apt install graphviz-dev graphviz`
+before the pip installation.
 
 ```bash
 git clone https://github.com/JonathanSchmidt1/atomate2_cosmo_tutorial.git
